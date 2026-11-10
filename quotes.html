@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f5f2e9" />
+    <meta name="description" content="A collection of thoughtful words to keep close and carry with you." />
+    <title>Words to Wander With — Small Steps Studio</title>
+    <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script type="module" src="./js/nav.js"></script>
+    <script type="module" src="./js/quotes.js"></script>
+  </head>
+  <body id="top">
+    <header class="site-header"><div class="nav-shell" data-nav></div></header>
+    <main>
+      <section class="page-hero quotes-hero">
+        <img class="hero-image" src="./hero-quotes.jpg" alt="" />
+        <div class="page-hero-shade"></div>
+        <div class="page-width page-hero-content">
+          <p class="eyebrow light-eyebrow"><span></span> WORDS TO WANDER WITH</p>
+          <p class="quote-feature" id="featured-quote">“The secret of getting ahead is getting started.”</p>
+          <p class="quote-feature-author" id="featured-author">— Mark Twain</p>
+          <button class="button button-light refresh-quote" id="new-quote" type="button">Another thought <span aria-hidden="true">↻</span></button>
+          <span class="hero-caption">A SMALL REMINDER, PICKED JUST FOR YOU</span>
+        </div>
+      </section>
+      <section class="page-width quote-library section-space">
+        <div class="section-kicker"><span>02</span><span class="kicker-line"></span><span>THE QUOTE COLLECTION</span></div>
+        <div class="library-heading">
+          <div><h1>Keep a good thought <em>close.</em></h1><p>For slow mornings, new beginnings, and all the in-between moments.</p></div>
+          <span class="quote-count" id="quote-count">18 THOUGHTS</span>
+        </div>
+        <div class="quote-grid" id="quote-grid" aria-live="polite"></div>
+      </section>
+    </main>
+    <footer class="site-footer"><div class="page-width footer-inner"><a class="footer-brand" href="./index.html">Small Steps <em>Studio</em></a><span>Made for the joy of figuring things out.</span><a href="#top" class="back-top">Back to top ↑</a></div></footer>
+  </body>
+</html>
